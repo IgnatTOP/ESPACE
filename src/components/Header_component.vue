@@ -62,7 +62,6 @@ export default {
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
-    border: 1px solid #000000;
 }
 .tarelka{
     position: absolute;
@@ -105,5 +104,33 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+@media (max-width: 600px) {
+   .tarelka{
+       margin-top: -38px;
+       left: 280px;
+       width: 110px;
+   }
+    .button_pod, .button_down{
+        border-radius: 15px;
+        width: 160px;
+        height: 48px;
+        margin: 25px 13px 0;
+    }
+    .title_name{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 80px 0 50px;
+        font-size: 86px;
+    }
+    .text_button{
+        font-size: 22px;
+    }
+    .raketa{
+        width: 97px;
+        right: 256px;
+        margin-top: -71px;
+    }
 }
 </style>

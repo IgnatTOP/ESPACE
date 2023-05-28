@@ -31,4 +31,19 @@ video{
     border-radius: 10px;
     border: 1px solid white;
 }
+@media (max-width: 600px) {
+    video{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .title{
+        font-size: 64px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
 </style>

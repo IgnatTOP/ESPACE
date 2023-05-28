@@ -3,10 +3,12 @@
         <p class="title">Скачать игру</p>
         <div class="download">
             <p class="titlePod">Минимальные характеристики:</p>
-            <ul>
+            <ul class="pc">
                 <li>ОС: Windows 7, 8, 10, macOS</li>
                 <li>Оперативная память: 4 GB ОЗУ</li>
             </ul>
+            <p class="mobile">ОС: Windows 7, 8, 10, macOS</p>
+            <p class="mobile">Оперативная память: 4 GB ОЗУ</p>
             <div class="buttons">
                 <div class="button_title">
                     <p class="windows">Windows</p>
@@ -76,6 +78,10 @@ ul{
     line-height: 57px;
     color: #000000;
 }
+.mobile{
+    display: none;
+    margin: 0;
+}
 .download{
     display: flex;
     font-family: 'Jura';
@@ -95,4 +101,32 @@ ul{
     justify-content: center;
     align-items: center;
 }
+@media (max-width: 600px) {
+    .title{
+        font-size: 64px;
+        line-height: normal;
+        margin: 50px 0 30px;
+        text-align: center;
+    }
+    .download{
+        font-size: 32px;
+        line-height: 46px;
+    }
+    .button_download{
+        border-radius: 15px;
+        width: 170px;
+        height: 55px;
+        margin: 0 10px 65px;
+    }
+    .download_button{
+        font-size: 28px;
+    }
+    .pc{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+}
+
 </style>

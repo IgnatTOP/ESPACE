@@ -44,4 +44,18 @@ export default {
     background-color: rgba(0, 0, 0, 0.86);
     color: #FFFFFF;
 }
+@media (max-width: 600px) {
+    .title{
+        font-size: 64px;
+        margin: 50px 0 20px;
+        line-height: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .opisanie_container{
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
 </style>
