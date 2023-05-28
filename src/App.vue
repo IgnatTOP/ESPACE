@@ -20,5 +20,6 @@ body{
     background-image: url("img/fon_svg.svg");
     background-repeat: repeat-y;
     background-size: 100%;
+    background-color: black;
 }
 </style>
